@@ -2,7 +2,7 @@ job('DSL_MAVEN_JOB') {
     description("Jenkin Job configuration using DSL")
     logRotator(2, 2)
     scm {
-        github('janardhan521/devops.git', 'main')
+        github('janardhan521/devops', 'main')
     }
     triggers
     {
