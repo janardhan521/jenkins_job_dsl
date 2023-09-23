@@ -1,4 +1,4 @@
-pipeline('DSL_PIPELINE_JOB'){
+pipeline{
     agent any
     stages{
       stage('Init'){
