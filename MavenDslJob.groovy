@@ -9,7 +9,7 @@ job('DSL_MAVEN_JOB') {
         scm('* * * * *')
     }
     steps {
-        maven('clean test install','devops/pom.xml')
+        maven('clean test install','pom.xml')
     }
     publishers {
         archiveArtifacts('**/*.war')
